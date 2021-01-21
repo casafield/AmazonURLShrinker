@@ -3,7 +3,12 @@
     "name": "Amazon URL Shrinker",
     "version": "0.9",
     "description": "Generate a short URL for Amazon.",
-    "browser_action": {
+    "permissions": ["declarativeContent"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
         "default_icon": "images/48.png",
         "default_title": "",
         "default_popup": "popup.html"
