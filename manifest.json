@@ -3,7 +3,7 @@
     "name": "Amazon URL Shrinker",
     "version": "0.9",
     "description": "Generate a short URL for Amazon.",
-    "permissions": ["tabs", "declarativeContent"],
+    "permissions": ["tabs", "declarativeContent", "clipboardWrite"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
