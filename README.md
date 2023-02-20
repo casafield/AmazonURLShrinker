@@ -11,8 +11,6 @@ https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked
 
 ## Issue Memo
 
-* manifest_versionが古くインストール時にエラーが発生する
-
 ## Author
 
 かさ
